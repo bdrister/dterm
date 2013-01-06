@@ -1,0 +1,22 @@
+Check these before every release:
+- Correct WD detection across varied applications
+- Correct window location across varied applications/window positions
+- History browsing
+- Pulling commands from history
+- Insert selection
+- Insert absolute path to selection (⇧⌥⌘V)
+- Window resizing with output
+- Execute in Terminal
+- Copy results and dismiss
+- Unlicensed command restriction works
+- Licenses are accepted
+- Licenses are found automatically
+- Hide dock icon preference
+- Activation hotkey preference
+- Also deactivate if already active preference
+- Font/color/antialiasing preference
+- Growl notifications
+
+
+Notes:
+- Tests involving command field need to be done with insertion point in different places (including beginning/end), and empty.

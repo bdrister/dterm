@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Using DTerm across different applications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords" content=""/>
+<meta name="description" content="DTerm uses the Accessibility API to provide service in many applications, not just the Finder."/>
+<link href="../sty/task_numbered.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+<!--top navigation area-->
+<div id="navbox">
+<a name="accessibility"></a>
+<a name="Tsetup"></a>
+<div id="navleftbox">
+<a class="navlink_left" href="help:anchor='access' bookID=DTerm Help">Home</a>
+</div>
+<div id="navrightbox">
+<a class="navlink_right" href="help:anchor='xall' bookID=DTerm Help">Index</a>
+</div>
+</div>
+<!--closes top navigation area-->
+
+<!--page head-->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/DTerm32.png" alt="DTerm icon" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Using DTerm across different applications</h1>
+</div>
+</div>
+<!--closes page header-->
+
+
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+DTerm uses the same Accessibility API used to provide information to screen readers and <a href="help:search='voiceover' bookID='Mac Help'">VoiceOver</a> to obtain information about the frontmost window when you activate DTerm.  If the window represents a document, well-behaved applications will provide the location of the document file to the Accessibility system, allowing DTerm to provide a context-sensitive interface for documents in nearly any application.  (If a window does not represent a document, or does not provide the document's location to the Accessibility system, DTerm will open a window set to your home directory, attached to the top of the screen.)
+</p>
+<p class="introprimtextlongtext">
+By default, the Accessibility APIs are disabled on a fresh install of Mac OS X.  Furthermore, to prevent a malicious application from obtaining potentially sensitive information without the user's permission, applications must be explicitly authorized by an administrator to use the Accessibility APIs.  Thus, a quick authorization process is needed as part of getting DTerm set up.  DTerm will automatically prompt you when it is launched if this authorization needs to be performed.
+</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+
+
+<div id="taskbox">
+<!--taskbox border top row-->
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<!--closes taskbox border top row-->
+<!--taskbox border left-->
+<div class="border_left">
+<!--taskbox border right-->
+<div class="border_right">
+<!--taskbox content-->
+<div class="content">
+<h2>To enable DTerm to work with documents in different applications:</h2>
+
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_1.gif" alt="Step 1" class="bullet1"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Choose DTerm &gt; Preferences to open the preferences window.</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_2.gif" alt="Step 2" class="bullet2"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Choose the “Accessibility” preferences tab.</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_3.gif" alt="Step 3" class="bullet3"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+If the window shows the Accessibility API as being “disabled,” click on the “Show Universal Access...” button.  Check the “Enable access for assistive devices” option near the bottom of the Universal Access window.</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_4.gif" alt="Step 4" class="bullet4"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+If DTerm's preferences window shows DTerm as being “not trusted,” click on the “Make DTerm trusted...” button.  Enter an administrator's username and password when prompted.  If successful, DTerm will ask to relaunch so the trust changes can take effect.</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+
+
+</div><!--closes taskbox content-->
+</div><!--closes taskbox border right-->
+</div><!--closes taskbox border left-->
+<!--taskbox border bottom row-->
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div><!--closes taskbox border bottom row-->
+</div><!--closes taskbox -->
+
+
+<div id="outrobox">
+<div class="outroprimtext">
+<!-- <p class="outroprimtextlongtext">
+</p> -->
+</div><!--closes outroprimtext-->
+</div><!--closes outrobox -->
+
+
+<div id="linkinternalbox">
+<h3>Related Topics</h3>
+<p class="linkinternal"><a href="help:anchor='calculatewd' bookID='DTerm Help'">How does DTerm determine the working directory when activated? <span class="linkarrow"></span></a></p>
+<p class="linkinternal"><a href="help:anchor='genericwind' bookID='DTerm Help'">Why do I get a generic DTerm window? <span class="linkarrow"></span></a></p>
+</div><!--closes linkinternalbox-->
+</body>
+</html>

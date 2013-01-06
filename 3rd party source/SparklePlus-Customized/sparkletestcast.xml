@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Sparkle Test App Changelog</title>
+      <link>http://andymatuschak.org/files/sparkletestcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>      
+         <item>
+            <title>Version 2.0 (2 bugs fixed; 3 new features)</title>
+            <description>
+            &lt;em&gt;(yes, these are Pixen changenotes)&lt;/em&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;strong&gt;Major New Things&lt;/strong&gt;&lt;/li&gt;
+				&lt;ul&gt;
+					&lt;li&gt;Animation. Finally.&lt;/li&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Animations are first-class Pixen citizens that can use all normal features.&lt;/li&gt;
+						&lt;li&gt;Fancy filmstrip-based animation UI that permits quick preview, reordering, and manipulation of cels.&lt;/li&gt;
+						&lt;li&gt;Reads from .pxa (Pixen animation), animated .gif, and a sequence of images.&lt;/li&gt;
+						&lt;li&gt;Writes to .pxa, animated .gif, Quicktime movie (even things like h.264), a sequence of images, or sprite sheet.&lt;/li&gt;
+						&lt;li&gt;Optional tracing paper-like previous cel overlay.&lt;/li&gt;
+						&lt;li&gt;Live-updating animated preview.&lt;/li&gt;
+						&lt;li&gt;Support for cel-independent durations.&lt;/li&gt;
+						&lt;li&gt;Full cel cut/copy/paste and drag/drop, even between documents.&lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;Pixen now requires Quicktime 7 or better.&lt;/strong&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;li&gt;Cohesive palette functionality.&lt;/li&gt;
+					&lt;ul&gt;
+						&lt;li&gt;A new consistent, powerful UI.&lt;/li&gt;
+						&lt;li&gt;You can now have multiple palettes open at once for quick color-grabbing.&lt;/li&gt;
+						&lt;li&gt;Multiple palette swatch view sizes for working with very large or very small palettes&lt;/li&gt;
+						&lt;li&gt;Editing a color now opens a new modal color panel so the floating color panel retains its target state.&lt;/li&gt;
+						&lt;li&gt;New manual palette mode (like Photoshop's indexed mode) wherein Pixen won't automatically add or change colors in the palette: no clobbering whatsoever is allowed.&lt;/li&gt;
+						&lt;li&gt;Pixen can now read and write to Microsoft PAL, JASC PAL, and Adobe Color Table formats.&lt;/li&gt;
+						&lt;li&gt;Color quantization: algorithmically reduce the number of colors in your image.&lt;/li&gt;
+						&lt;li&gt;Pixen now loads palettes in the saved order from .gif, and .bmp.&lt;/li&gt;
+						&lt;li&gt;Pixen now uses the color at palette index 0 as the background color instead of always using full-transparent.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;li&gt;Documentation! Still not quite complete, but it's up to 57 pages. There are help buttons throughout the application linking to parts of the documentation.&lt;/li&gt;
+					&lt;li&gt;ColorSync-compliant now (we think), so you can round-trip colors in any document.&lt;/li&gt;
+					&lt;li&gt;Fancy new image prompter with live size preview and previous size saving.&lt;/li&gt;
+					&lt;li&gt;Even more optimizations.&lt;/li&gt;
+					&lt;li&gt;Refinished Discover Pixen with more images and less text.&lt;/li&gt;
+				&lt;/ul&gt;
+
+				&lt;li&gt;&lt;strong&gt;Smaller Enhancements&lt;/strong&gt;&lt;/li&gt;
+				&lt;ul&gt;
+					&lt;li&gt;Added options to the fill and wand tools for tolerance and contiguity (Cmd toggles the latter).&lt;/li&gt;
+					&lt;li&gt;Shift and option update the rectangle, line, and ellipse tools immediately.&lt;/li&gt;
+					&lt;li&gt;Pasted images retain their positions if copied from Pixen.&lt;/li&gt;
+					&lt;li&gt;The delete key deletes saved backgrounds and patterns.&lt;/li&gt;
+					&lt;li&gt;Palette operations are now undoable.&lt;/li&gt;
+					&lt;li&gt;Selection tools "pop" selections on mouse down and up without moving the cursor.&lt;/li&gt;
+					&lt;li&gt;Dramatically improved color reduction on .gif export.&lt;/li&gt;
+					&lt;li&gt;Increased the preview window's size limit.&lt;/li&gt;
+					&lt;li&gt;Improved transition of selection masks during canvas size changes.&lt;/li&gt;
+					&lt;li&gt;Moved the pattern toolbar's buttons to its drawer.&lt;/li&gt;
+					&lt;li&gt;The move tool is dramatically faster, even on huge images.&lt;/li&gt;
+				&lt;/ul&gt;
+
+				&lt;li&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/li&gt;
+				&lt;ul&gt;
+					&lt;li&gt;Increased reliability during layer operations (add, delete, duplicate), especially undo/redo.&lt;/li&gt;
+					&lt;li&gt;Fixed a layer dragging glitch.&lt;/li&gt;
+					&lt;li&gt;Fixed the document's dirty state.&lt;/li&gt;
+					&lt;li&gt;Fixes to rectangle and ellipse tool properties UI.&lt;/li&gt;
+					&lt;li&gt;Fixed a sizing bug that occurred when a large, oblong image is pasted into a too-small canvas.&lt;/li&gt;
+					&lt;li&gt;Fixed cursor bugs in the background window.&lt;/li&gt;
+					&lt;li&gt;Fixed tool preview glitches that occurred when switching between mouse buttons or tools.&lt;/li&gt;
+					&lt;li&gt;Fixed scroll wheel zooming with the Mighty Mouse.&lt;/li&gt;
+					&lt;li&gt;Fixed selection undo/redo after a canvas resize.&lt;/li&gt;
+					&lt;li&gt;Fixed selection moving undo/redo.&lt;/li&gt;
+					&lt;li&gt;Fixed an alternate fill color bug for the rectangle and ellipse tools.&lt;/li&gt;
+					&lt;li&gt;Fixed a selection bug wherein lasso would select pixels one row lower than intended.&lt;/li&gt;
+					&lt;li&gt;The layers drawer no longer extends on a delete selection undo.&lt;/li&gt;
+					&lt;li&gt;Fixed bugs in saving/loading Game of Life files.&lt;/li&gt;
+					&lt;li&gt;The preview window is now openable without a canvas.&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/ul&gt;
+			</description>
+            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate>
+            <enclosure url="http://andymatuschak.org/files/Sparkle Test App_2.0.zip" length="1600000" type="application/octet-stream"/>
+         </item>
+   </channel>
+</rss>

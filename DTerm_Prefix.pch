@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'DTerm' target in the 'DTerm' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <Carbon/Carbon.h>
+	#import "SUConstants.h"
+#endif

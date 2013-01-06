@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {checkForUpdates = id; closeProfileInfoSheet = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checkForUpdatesText = NSTextField; 
+                delegate = id; 
+                profileMoreInfoButton = NSButton; 
+                profileMoreInfoView = NSView; 
+                profileMoreInfoWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

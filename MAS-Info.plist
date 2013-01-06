@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenuMAS</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>DTerm</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.decimus.DTerm.MAS</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>DTrm</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.6.6</string>
+	<key>LSUIElement</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.6</string>
+	<key>CFBundleVersion</key>
+	<string>BZR_REVISION</string>
+	<key>CFBundleGetInfoString</key>
+	<string>DTerm 1.6, © 2011 Decimus Software, Inc. All Rights Reserved.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011 Decimus Software, Inc.</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>DTermHelp</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>net.decimus.dterm.urlscheme</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dterm</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

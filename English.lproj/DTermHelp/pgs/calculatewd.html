@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>How does DTerm determine the working directory when activated?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords" content=""/>
+<meta name="description" content="When DTerm is activated, it tries to automatically choose a good working directory based on the frontmost window."/>
+<link href="../sty/task_numbered.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+<!--top navigation area-->
+<div id="navbox">
+<a name="calculatewd"></a>
+<div id="navleftbox">
+<a class="navlink_left" href="help:anchor='access' bookID=DTerm Help">Home</a>
+</div>
+<div id="navrightbox">
+<a class="navlink_right" href="help:anchor='xall' bookID=DTerm Help">Index</a>
+</div>
+</div>
+<!--closes top navigation area-->
+
+<!--page head-->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/DTerm32.png" alt="DTerm icon" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>How does DTerm determine the working directory when activated?</h1>
+</div>
+</div>
+<!--closes page header-->
+
+
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+When DTerm is activated, it tries to automatically choose a good working directory based on the frontmost window.
+</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+
+
+<div id="taskbox">
+<!--taskbox border top row-->
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<!--closes taskbox border top row-->
+<!--taskbox border left-->
+<div class="border_left">
+<!--taskbox border right-->
+<div class="border_right">
+<!--taskbox content-->
+<div class="content">
+<h2>DTerm uses these rules to determine its working directory:</h2>
+
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_1.gif" alt="Step 1" class="bullet1"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+If the frontmost window belongs to the Finder, the working directory is set to the “target” directory of the window, if available.  This is the directory displayed in the title bar of the window.
+</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_2.gif" alt="Step 2" class="bullet2"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Otherwise, if a list of selected items can be obtained from the frontmost application, the working directory is set to the directory which contains the first selected item.</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_3.gif" alt="Step 3" class="bullet3"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Otherwise, DTerm uses your home directory as its working directory.  This generic DTerm window will appear at the top of the screen to distinguish it from DTerm windows which were able to derive their working directories from the frontmost window.</p>
+</div><!--closes taskprimcontent-->
+</div><!-- closes taskprimtext -->
+
+
+</div><!--closes taskbox content-->
+</div><!--closes taskbox border right-->
+</div><!--closes taskbox border left-->
+<!--taskbox border bottom row-->
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div><!--closes taskbox border bottom row-->
+</div><!--closes taskbox -->
+
+
+<div id="outrobox">
+<div class="outroprimtext">
+<!-- <p class="outroprimtextlongtext">
+</p> -->
+</div><!--closes outroprimtext-->
+</div><!--closes outrobox -->
+
+
+<div id="linkinternalbox">
+<h3>Related Topics</h3>
+<p class="linkinternal"><a href="help:anchor='insertselection' bookID='DTerm Help'">Inserting selected items into the command line <span class="linkarrow"></span></a></p>
+<p class="linkinternal"><a href="help:anchor='genericwind' bookID='DTerm Help'">Why do I get a generic DTerm window? <span class="linkarrow"></span></a></p>
+</div><!--closes linkinternalbox-->
+</body>
+</html>
